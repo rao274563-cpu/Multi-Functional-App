@@ -1,5 +1,5 @@
 # Multi-Functional-App
-This is the multi functional application where we can perform multiple tasks like:
+This is the multi functional application where we can perform following tasks like:
 1. Text Summarization
 2. Next word prediction
 3. Story generation
