@@ -1,4 +1,3 @@
-# Multi-Functional-App
 # Multifunctional NLP and Image Generation Tool
 
 ## Overview
