@@ -1,4 +1,5 @@
 Multifunctional NLP & Image Generation Tool using Hugging Face Models
+
 🚀 Project Overview
 
 The Multifunctional NLP & Image Generation Tool is an AI-powered application that integrates multiple Natural Language Processing (NLP) and Computer Vision capabilities into a single platform using pretrained Hugging Face models. The project provides an easy-to-use interface where users can perform various AI tasks such as text summarization, sentiment analysis, chatbot interaction, question answering, next-word prediction, story generation, and image generation.
@@ -12,7 +13,11 @@ This project demonstrates the practical integration of multiple machine learning
 Generated Image
 <img width="512" height="512" alt="generated_image" src="https://github.com/user-attachments/assets/ca235aa3-998d-4cc5-be98-52331310995e" />
 
+
+
 🎯 Project Features
+
+🎯 Dashboard Features
 📝 Text Summarization
 
 Generate concise summaries from lengthy text passages.
@@ -72,10 +77,20 @@ Development Environment
 Visual Studio Code
 Windows 11
 Git & GitHub
-
 📂 Dataset Information
 
 This project primarily utilizes pretrained Hugging Face models and does not require a custom dataset.
+
+The models have been trained on large-scale datasets including:
+
+Common Crawl
+Wikipedia
+BooksCorpus
+OpenWebText
+SQuAD
+Other publicly available benchmark datasets
+
+The pretrained weights allow the application to perform various NLP and image-generation tasks without additional model training.
 
 📁 Project Structure
 MultiFunctional_AI_Tool/
@@ -99,6 +114,8 @@ MultiFunctional_AI_Tool/
 ├── README.md
 │
 ├── venv/
+│
+└── .gitignore
 📈 Model Evaluation
 
 The application performance can be evaluated using:
@@ -135,6 +152,7 @@ Advanced image generation settings
 Image editing and image-to-image generation
 API integration for third-party applications
 Performance optimization using GPU acceleration
+
 👨‍💻 Author
 Sachin Kumar Rao
 
@@ -143,6 +161,7 @@ GitHub: https://github.com/rao274563-cpu
 LinkedIn: https://www.linkedin.com/in/sachin-rao-535b0b331/
 
 ⭐ Acknowledgements
+
 Hugging Face
 Transformers Library
 Diffusers Library
