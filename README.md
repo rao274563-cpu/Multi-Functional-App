@@ -15,6 +15,7 @@ Generated Image
 
 
 
+
 🎯 Project Features
 
 🎯 Dashboard Features
@@ -47,36 +48,45 @@ Generate creative and meaningful stories from user-provided prompts.
 Generate images from textual descriptions using Stable Diffusion models.
 
 📊 Key Insights
+
 Successfully integrated multiple Hugging Face models into a single application.
 Demonstrated both NLP and Computer Vision capabilities within one platform.
 Implemented task-specific model pipelines for improved usability.
 Applied prompt engineering and generation controls to improve output quality.
 Developed a scalable architecture that allows easy addition of future AI features.
 Showcased practical usage of transformer-based models for real-world applications.
+
 🛠 Tools & Technologies
+
 Programming Language
 Python 3.11
+
 Machine Learning & AI
 Hugging Face Transformers
 Hugging Face Diffusers
 Stable Diffusion
 PyTorch
+
 NLP Models
 DistilBART (Summarization)
 DistilBERT (Question Answering)
 GPT-2 (Chatbot, Story Generation, Next Word Prediction)
 Sentiment Analysis Pipeline
+
 Frontend
 Streamlit
+
 Additional Libraries
 Accelerate
 Safetensors
 Pillow
 NumPy
+
 Development Environment
 Visual Studio Code
 Windows 11
 Git & GitHub
+
 📂 Dataset Information
 
 This project primarily utilizes pretrained Hugging Face models and does not require a custom dataset.
@@ -93,6 +103,7 @@ Other publicly available benchmark datasets
 The pretrained weights allow the application to perform various NLP and image-generation tasks without additional model training.
 
 📁 Project Structure
+
 MultiFunctional_AI_Tool/
 │
 ├── app/
@@ -125,15 +136,20 @@ Accuracy
 Precision
 Recall
 F1-Score
+
 User Experience
 Response Relevance
 Generation Quality
 User Satisfaction
+
 Image Generation
+
 Visual Quality
 Prompt Adherence
 Generation Time
+
 💡 Business Use Cases
+
 AI-powered content creation
 Intelligent customer support systems
 Automated text analysis
@@ -141,7 +157,9 @@ Educational AI assistants
 Creative writing assistance
 AI image generation platforms
 Research and productivity tools
+
 🔮 Future Improvements
+
 Integration of larger conversational models (Llama, Mistral, Gemma, etc.)
 Real-time speech-to-text and text-to-speech support
 Multi-language support
