@@ -16,9 +16,9 @@ Generated Image
 
 
 
+
 🎯 Project Features
 
-🎯 Dashboard Features
 📝 Text Summarization
 
 Generate concise summaries from lengthy text passages.
