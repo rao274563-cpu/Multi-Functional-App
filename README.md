@@ -1,109 +1,121 @@
-Multifunctional NLP & Image Generation Tool using Hugging Face Models
+# Multifunctional NLP & Image Generation Tool using Hugging Face Models
 
-🚀 Project Overview
+## 🚀 Project Overview
 
-The Multifunctional NLP & Image Generation Tool is an AI-powered application that integrates multiple Natural Language Processing (NLP) and Computer Vision capabilities into a single platform using pretrained Hugging Face models. The project provides an easy-to-use interface where users can perform various AI tasks such as text summarization, sentiment analysis, chatbot interaction, question answering, next-word prediction, story generation, and image generation.
+The **Multifunctional NLP & Image Generation Tool** is an AI-powered application that integrates multiple Natural Language Processing (NLP) and Computer Vision capabilities into a single platform using pretrained Hugging Face models.
 
-This project demonstrates the practical integration of multiple machine learning models into a unified application and showcases the capabilities of modern transformer-based AI systems.
+The application provides an intuitive interface where users can perform a variety of AI-driven tasks, including text summarization, sentiment analysis, chatbot interaction, question answering, next-word prediction, story generation, and image generation.
 
-<img width="950" height="623" alt="Screenshot 2025-11-15 165252" src="https://github.com/user-attachments/assets/f442621a-2689-40bc-874d-3ac31bd2bbea" />
-<img width="934" height="683" alt="Screenshot 2025-11-15 165633" src="https://github.com/user-attachments/assets/d01c4e0d-6331-4045-a88d-6d99d6e0e0c3" />
-<img width="935" height="493" alt="Screenshot 2025-11-15 165422" src="https://github.com/user-attachments/assets/a4963503-c75e-4ef6-ab6c-37b51c90c12b" />
-<img width="954" height="562" alt="Screenshot 2025-11-15 165233" src="https://github.com/user-attachments/assets/d6bc3077-5255-4ae3-95a3-ee71542153bc" />
-Generated Image
-<img width="512" height="512" alt="generated_image" src="https://github.com/user-attachments/assets/ca235aa3-998d-4cc5-be98-52331310995e" />
+This project demonstrates the practical integration of multiple transformer-based machine learning models into a unified application and showcases the capabilities of modern AI systems for real-world use cases.
+
+---
+
+## 📸 Application Preview
+
+### NLP Features
+<img width="1000" height="667" alt="Screenshot 2026-06-14 161836" src="https://github.com/user-attachments/assets/61dac036-e20e-400c-aad4-d514ca15262a" />
+<img width="1021" height="377" alt="Screenshot 2026-06-14 162054" src="https://github.com/user-attachments/assets/b8d34a06-8f0e-4dab-bec5-4e437ba447a2" />
 
 
+### Image Generation
+
+<img width="635" height="395" alt="Screenshot 2026-06-14 162141" src="https://github.com/user-attachments/assets/d3befd8b-5284-4f11-8a3b-ef7eddffaf85" />
 
 
+---
 
-🎯 Project Features
+## 🎯 Project Features
 
-📝 Text Summarization
+### 📝 Text Summarization
 
-Generate concise summaries from lengthy text passages.
+Generate concise and meaningful summaries from lengthy text passages using transformer-based summarization models.
 
-😊 Sentiment Analysis
+### 😊 Sentiment Analysis
 
-Analyze text sentiment and classify it as Positive, Negative, or Neutral.
+Analyze text sentiment and classify it as:
 
-🤖 Chatbot
+* Positive
+* Negative
 
-Interact with an AI-powered chatbot capable of responding to user queries.
+### 🤖 AI Chatbot
 
-❓ Question Answering
+Interact with an intelligent chatbot capable of responding to user queries using pretrained language models.
 
-Extract answers from a given context using transformer-based question-answering models.
+### ❓ Question Answering
 
-🔮 Next Word Prediction
+Extract precise answers from a given context using transformer-based question-answering models.
 
-Predict the most probable next word based on the provided text input.
+### 🔮 Next Word Prediction
 
-📖 Story Generation
+Predict the most probable next word based on user-provided text input.
 
-Generate creative and meaningful stories from user-provided prompts.
+### 📖 Story Generation
 
-🎨 Image Generation
+Generate creative and context-aware stories from custom prompts.
 
-Generate images from textual descriptions using Stable Diffusion models.
+### 🎨 Image Generation
 
-📊 Key Insights
+Generate images from textual descriptions using Stable Diffusion image-generation models.
 
-Successfully integrated multiple Hugging Face models into a single application.
-Demonstrated both NLP and Computer Vision capabilities within one platform.
-Implemented task-specific model pipelines for improved usability.
-Applied prompt engineering and generation controls to improve output quality.
-Developed a scalable architecture that allows easy addition of future AI features.
-Showcased practical usage of transformer-based models for real-world applications.
+---
 
-🛠 Tools & Technologies
+## 📊 Key Insights
 
-Programming Language
-Python 3.11
+* Successfully integrated multiple Hugging Face models into a single application.
+* Demonstrated both NLP and Computer Vision capabilities within one platform.
+* Implemented task-specific model pipelines for improved usability and performance.
+* Applied prompt engineering and generation controls to enhance output quality.
+* Developed a scalable architecture that allows easy integration of future AI features.
+* Showcased practical applications of transformer-based models in real-world scenarios.
 
-Machine Learning & AI
-Hugging Face Transformers
-Hugging Face Diffusers
-Stable Diffusion
-PyTorch
+---
 
-NLP Models
-DistilBART (Summarization)
-DistilBERT (Question Answering)
-GPT-2 (Chatbot, Story Generation, Next Word Prediction)
-Sentiment Analysis Pipeline
+## 🛠 Tools & Technologies
 
-Frontend
-Streamlit
+### Programming Language
 
-Additional Libraries
-Accelerate
-Safetensors
-Pillow
-NumPy
+* Python 3.11
 
-Development Environment
-Visual Studio Code
-Windows 11
-Git & GitHub
+### Machine Learning & AI
 
-📂 Dataset Information
+* Hugging Face Transformers
+* Hugging Face Diffusers
+* Stable Diffusion
+* PyTorch
+
+### NLP Models
+
+* DistilBART (Text Summarization)
+* DistilBERT (Question Answering)
+* GPT-2 (Chatbot, Story Generation, Next Word Prediction)
+* Hugging Face Sentiment Analysis Pipeline
+
+### Frontend
+
+* Streamlit
+
+### Additional Libraries
+
+* Accelerate
+* Safetensors
+* Pillow
+* NumPy
+
+### Development Environment
+
+* Visual Studio Code
+* Windows 11
+* Git & GitHub
+
+---
+
+## 📂 Dataset Information
 
 This project primarily utilizes pretrained Hugging Face models and does not require a custom dataset.
 
-The models have been trained on large-scale datasets including:
+## 📁 Project Structure
 
-Common Crawl
-Wikipedia
-BooksCorpus
-OpenWebText
-SQuAD
-Other publicly available benchmark datasets
-
-The pretrained weights allow the application to perform various NLP and image-generation tasks without additional model training.
-
-📁 Project Structure
-
+```text
 MultiFunctional_AI_Tool/
 │
 ├── app/
@@ -119,69 +131,146 @@ MultiFunctional_AI_Tool/
 │   ├── story.py
 │   └── image_gen.py
 │
+├── screenshots/
+│   ├── home.png
+│   ├── nlp_features.png
+│   └── image_generation.png
+│
 ├── generated_image.png
 ├── requirements.txt
 ├── test_setup.py
 ├── README.md
-│
-├── venv/
-│
-└── .gitignore
-📈 Model Evaluation
+├── .gitignore
+└── venv/
+```
 
-The application performance can be evaluated using:
+---
 
-NLP Tasks
-Accuracy
-Precision
-Recall
-F1-Score
+## 📈 Model Evaluation
 
-User Experience
-Response Relevance
-Generation Quality
-User Satisfaction
+### NLP Tasks
 
-Image Generation
+Performance can be evaluated using:
 
-Visual Quality
-Prompt Adherence
-Generation Time
+* Accuracy
+* Precision
+* Recall
+* F1-Score
 
-💡 Business Use Cases
+### User Experience
 
-AI-powered content creation
-Intelligent customer support systems
-Automated text analysis
-Educational AI assistants
-Creative writing assistance
-AI image generation platforms
-Research and productivity tools
+* Response Relevance
+* Generation Quality
+* User Satisfaction
 
-🔮 Future Improvements
+### Image Generation
 
-Integration of larger conversational models (Llama, Mistral, Gemma, etc.)
-Real-time speech-to-text and text-to-speech support
-Multi-language support
-Conversation memory for chatbot
-User authentication and profile management
-Cloud deployment using Docker and AWS/GCP/Azure
-Advanced image generation settings
-Image editing and image-to-image generation
-API integration for third-party applications
-Performance optimization using GPU acceleration
+* Visual Quality
+* Prompt Adherence
+* Generation Time
 
-👨‍💻 Author
-Sachin Kumar Rao
+---
 
-GitHub: https://github.com/rao274563-cpu
+## 💡 Business Use Cases
 
-LinkedIn: https://www.linkedin.com/in/sachin-rao-535b0b331/
+* AI-Powered Content Creation
+* Intelligent Customer Support Systems
+* Automated Text Analysis
+* Educational AI Assistants
+* Creative Writing Assistance
+* AI Image Generation Platforms
+* Research and Productivity Tools
+* Marketing Content Generation
 
-⭐ Acknowledgements
+---
 
-Hugging Face
-Transformers Library
-Diffusers Library
-PyTorch
+## ▶️ Installation & Setup
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/rao274563-cpu/MultiFunctional_AI_Tool.git
+cd MultiFunctional_AI_Tool
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Integration of larger conversational models (Llama, Mistral, Gemma, etc.)
+* Real-time Speech-to-Text and Text-to-Speech support
+* Multi-language support
+* Conversation memory for chatbot interactions
+* User authentication and profile management
+* Cloud deployment using Docker and AWS/GCP/Azure
+* Advanced image generation controls
+* Image editing and image-to-image generation
+* API integration for third-party applications
+* GPU-based performance optimization
+
+---
+
+## 👨‍💻 Author
+
+### Sachin Kumar Rao
+
+GitHub:
+https://github.com/rao274563-cpu
+
+LinkedIn:
+https://www.linkedin.com/in/sachin-rao-535b0b331/
+
+---
+
+## ⭐ Acknowledgements
+
+Special thanks to:
+
+* Hugging Face
+* Transformers Library
+* Diffusers Library
+* PyTorch
+* Streamlit
+* Open Source AI Community
+
+for providing the tools and resources that made this project possible.
+
+---
+
+## 📜 License
+
+This project is intended for educational, learning, and portfolio purposes.
+
+Feel free to fork, modify, and enhance the project while providing appropriate attribution.
+
+---
+
+If you found this project useful, consider giving the repository a ⭐ on GitHub.
+
 Streamlit
